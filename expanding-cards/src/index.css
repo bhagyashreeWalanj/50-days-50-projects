@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    
+/*       
+    .progress-container::before{
+        @apply content=[''] bg-gray-300 absolute top-1/2 left-0 h-1 w-full translate-y-2/4 z-[-1]
+    }
+
+    .progress-container{
+        @apply flex justify-between relative mb-8 max-w-full w-80
+    } */
+}
