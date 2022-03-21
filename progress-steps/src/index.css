@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.circle{
+    background-color: #fff;
+}
+
+@layer components{
+    .circle{
+        @apply bg-white text-gray-600 rounded-[50%] h-12 w-12 leading-10 flex align-middle justify-center border-solid border-2 text-base
+    }
+
+    .circle.active{
+        @apply border-blue-400 
+    }
+} 
